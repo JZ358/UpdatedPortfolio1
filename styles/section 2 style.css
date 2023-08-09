@@ -1,0 +1,31 @@
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;    
+
+  }
+
+.section2-heading{
+    color: #484965;
+    position: relative;
+
+    font-size:30px;
+    opacity: 0.6;
+    margin-top: 50px;
+    width: 1000px;
+
+}
+
+.section2-text{
+    color: #484965;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 16px;    
+    text-align: center;
+    opacity: 0.6;
+    line-height: 1.4;
+}
+ 

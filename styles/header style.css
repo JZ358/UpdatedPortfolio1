@@ -1,0 +1,124 @@
+.header{
+    opacity: 0.6;
+    display: flex;
+    flex-direction: row;
+    height:50px;
+    align-items: center;
+    justify-content:space-between;
+    position: absolute;
+    top: 40px;
+  }
+
+  .left-section{
+    margin-left: 100px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .right-section{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items:end;
+    justify-content:baseline;
+    font-family: "Questrial";
+    column-gap: 50px;
+    row-gap: 10px;
+    padding-right: 10%;
+    top: 50px;
+  }
+
+  .about-container{
+    position: absolute;
+    height: 73rem;
+  }
+
+  .about-text{
+    top: 50px;
+    align-items:end;
+    position:sticky;
+    position: -webkit-sticky; /* Safari */
+  }
+
+  .projects-container{
+    position: absolute;
+    height: 96rem;
+  }
+
+  .projects-text{
+    top: 75px;
+    align-items:end;
+    position:sticky;
+    position: -webkit-sticky; /* Safari */
+  }
+
+  .contact-container{
+    position: absolute;
+    height: 250rem;
+  }
+
+  .contact-text{
+    top: 100px;
+    align-items:end;
+    position:sticky;
+    position: -webkit-sticky; /* Safari */
+  }
+
+  .vl {
+    border-right: 6px solid black;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    left: 95%;
+    opacity: 0.6;
+
+  }
+
+  .icon{
+    width:50px;
+    margin-right: 2px;
+    opacity: 0.8;
+  }
+
+  .text{
+    font-size: 15px;
+    font-family: "Questrial";
+    opacity: 0.5;
+  }
+
+p{
+  font-family: "Questrial";
+}
+
+b{
+  font-family: "Questrial";
+}
+
+.vertical-container-{
+  display: flex;
+  position: absolute;
+  height: 130rem;  
+  align-items: flex-start;
+
+}
+
+.vertical-subtitle{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size:100px;
+  font-weight: bold;
+  font-family: "Questrial";
+  color: #484965;
+  stroke-width: 500px;
+  opacity: 0.1;
+  padding-left: 5%;
+  align-self: flex-start;  
+  position:sticky;
+  position: -webkit-sticky; /* Safari */
+  top:50px;
+}
+

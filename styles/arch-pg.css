@@ -1,0 +1,45 @@
+.body{
+    text-align: center;
+    background-color: #f9f5f1;
+}
+
+.arch-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arch-png{
+    position: relative;
+    max-width: 800px;
+    height: auto;
+    background-color: #f9f5f1;
+    align-items: center;
+ 
+}
+
+.vertical-container1{
+    display: flex;
+    position: absolute;
+    right: 5px;
+    height: 130rem;  
+    align-items: flex-start;
+
+  }
+
+.vertical-subtitle1{
+    position: relative;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size:100px;
+    font-weight: bold;
+    font-family: "Questrial";
+    color: #484965;
+    stroke-width: 500px;
+    opacity: 0.1;
+    padding-left: 10%;
+    align-self: flex-start;  
+    position:sticky;
+    position: -webkit-sticky; /* Safari */
+    top:50px;
+  }
